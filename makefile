@@ -1,7 +1,7 @@
 # Used by `image`, `push` & `deploy` targets, override as required
-IMAGE_REG ?= docker.io
-IMAGE_REPO ?= adijaiswal/dotnet-demoapp
-IMAGE_TAG ?= latest
+IMAGE_REG = awsd43
+IMAGE_REPO = dotnet_app
+IMAGE_TAG = latest
 
 # Used by `deploy` target, sets Azure webap defaults, override as required
 AZURE_RES_GROUP ?= demoapps
